@@ -17,6 +17,10 @@
 		"User"		: "",
 		"Pass"		: ""
 	},
+	"Camera":
+	{
+		"PicDir"	: "/tmp/dollspic"
+	},
 	"Switch":
 	{
 		"MacList"	: []
