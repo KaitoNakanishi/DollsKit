@@ -3,6 +3,7 @@
 
 #include "sysinfo.h"
 #include "taskqueue.h"
+#include "camera.h"
 #include "twitter.h"
 #include "httpserver.h"
 
@@ -14,6 +15,7 @@ namespace system {
 struct System {
 	SysInfo sys_info;
 	TaskQueue task_queue;
+	Camera camera;
 	Twitter twitter;
 	http::HttpServer http_server;
 };
